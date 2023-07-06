@@ -45,7 +45,7 @@ const Slides = () => {
 
         <Link href="/components/products/ViewProducts">
           <div className="center_img flex flex-wrap px-4 justify-evenly mx-auto my-[13px] ">
-            <div className="flex space-x-4 bg-gray-50 p-4 cursor-pointer">
+            <div className="flex space-x-4 bg-gray-50 p-4 cursor-pointer lg:flex-1">
               <img
                 src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/1ce5ec29-9a3c-42d3-bda2-dee2b98956ba._CR0,0,675,675_AC_SX130_SY60_QL70_.jpg"
                 alt=""
@@ -75,7 +75,6 @@ const Slides = () => {
               </div>
             </div>
             <img
-              // src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg"
               src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/81935a8f-3380-4f54-9496-466e94417dde._CR0,0,1200,628_SX405_QL70_.jpg"
               alt=""
               className="mx-auto"

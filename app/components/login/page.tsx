@@ -34,11 +34,11 @@ const cartPriceContext = createContext({
 
 export default function Login() {
   // User sign in
-//   const [signin, setsignin] = useState(false);
+  //   const [signin, setsignin] = useState(false);
   const [signin, setsignin] = useState<boolean>(false);
   const [alertstate, setalertstate] = useState(false);
-  const [useremail, setuseremail] = useState();
-  const [username, setusername] = useState();
+  const [useremail, setuseremail] = useState<any>();
+  const [username, setusername] = useState<any>();
 
   function handlesignin() {
     signInWithPopup(auth, provider).then((data) => {
